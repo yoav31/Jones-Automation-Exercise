@@ -4,8 +4,7 @@ import { chromium } from 'playwright';
     const page = await browser.newPage();
     try {
         await page.goto('https://test.netlify.app/');
-        const title = await page.title();
-        console.log(`Page title: ${title}`);
+        await page.waitForSelector('#name');
         await page.fill('#name', 'Yoav Vaknin');
         await page.fill('#email', 'yoav31yv@gmail.com');
         await page.fill('#phone', '0502193004');
