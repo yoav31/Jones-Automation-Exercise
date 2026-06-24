@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# Playwright outputs
+playwright-report/
+test-results/
+blob-report/
+
+# logs
+*.log
+
+# screenshots / artifacts
+*.png
+*.jpg
+
+# environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
