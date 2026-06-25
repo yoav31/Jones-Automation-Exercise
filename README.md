@@ -22,14 +22,18 @@ Before running the project, ensure that [Node.js](https://nodejs.org/) is instal
 
 ## Installation & Setup
 To initialize the project and download all required dependencies, open your terminal in the project directory and run the following commands in order:
+1. **clone this repo:**
+   ```bash
+    git clone https://github.com/yoav31/Jones-Automation-Exercise.git
+   ```
 
-1. **Install Playwright library:**
+2. **Install Playwright library:**
    ```bash
     npm install playwright
     npx playwright install chromium
    ```
 
-2. **run command:**
+3. **run command:**
    ```bash
     npm start
    ```   
